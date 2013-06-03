@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Gdbm by Distrotech</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Gdbm</h1>
+          <h2></h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/Distrotech/gdbm/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/Distrotech/gdbm/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/Distrotech/gdbm" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <p>GNU dbm README
+Copyright (C) 2011 Free Software Foundation, Inc.
+See the end of file for copying conditions.</p>
+
+<ul>
+<li>Introduction</li>
+</ul><p>This file contains brief information about configuring, testing
+and using GNU dbm.  It is <em>not</em> intended as a replacement
+for the documentation, instead it is provided as a brief reference
+only. The complete documentation is available in doc/ subdirectory.
+To read the manpage without installing the package use <code>man
+doc/gdbm.3'.  To read texinfo documentation without installing the
+package, run</code>info -f doc/gdbm.info'.  After the package is installed
+the documentation can be accessed by running <code>man gdbm' and
+</code>info gdbm'.</p>
+
+<ul>
+<li>Overview</li>
+</ul><p>GNU dbm is a set of database routines that use extendible hashing and
+works similar to the standard UNIX dbm routines.  The library provides
+also an optional compatibility layer for UNIX-like dbm and ndbm calls.</p>
+
+<ul>
+<li>
+<p>Configuration</p>
+
+<p>a)  configure [PARAMETERS]
+b)  make </p>
+</li>
+</ul><p>For a list of generic PARAMETERS, see the file INCLUDE.  The gdbm-specific
+parameters are:</p>
+
+<p>** --enable-memory-mapped-io</p>
+
+<p>Enable the use of mmap(2) for I/O optimizations.  This is the default,
+if mmap is available.  To disable mmap, use --disable-memory-mapped-io.</p>
+
+<p>** --enable-libgdbm-compat</p>
+
+<p>Build and install libgdbm_compat, a compatibility layer which provides
+UNIX-like dbm and ndbm interfaces.</p>
+
+<p>** --enable-gdbm-export</p>
+
+<p>Build and install gdbmexport with the specified gdbm 1.8 library.</p>
+
+<p>** --with-gdbm183-library=LIB</p>
+
+<p>Build gdbmexport with specified (static) library.  LIB must be
+a loader argument valid for the use with cc(1), e.g.: -lgdbm-1.8.</p>
+
+<p>** --gdbm183-libdir=DIR</p>
+
+<p>Build gdbmexport with the gdbm library from the specified directory.</p>
+
+<p>** --gdbm183-includedir=DIR</p>
+
+<p>Build gdbmexport with gdbm.h from the specified directory.</p>
+
+<ul>
+<li>
+<p>Installation </p>
+
+<p>make install</p>
+</li>
+<li><p>Bug reporting</p></li>
+</ul><p>Please report bugs to <a href="mailto:bug-gdbm@gnu.org">bug-gdbm@gnu.org</a></p>
+
+<ul>
+<li>Documentation, updates etc.</li>
+</ul><p>For the latest updates, visit <a href="http://www.gnu.org/software/gdbm">http://www.gnu.org/software/gdbm</a>,</p>
+
+<p>In particular, a copy of GDBM documentation in various formats is
+available online at <a href="http://www.gnu.org/software/gdbm/manual">http://www.gnu.org/software/gdbm/manual</a>.</p>
+
+<p>Latest versions of GDBM can be downloaded from anonymous
+<a>ftp://ftp.gnu.org/gnu/gdbm</a>.</p>
+
+<p>To track the development, visit 
+<a href="http://puszcza.gnu.org.ua/projects/gdbm">http://puszcza.gnu.org.ua/projects/gdbm</a>.</p>
+
+
+<ul>
+<li>Copyright information:</li>
+</ul><p>Copyright (C) 2011 Free Software Foundation, Inc.</p>
+
+<p>Permission is granted to anyone to make or distribute verbatim copies
+   of this document as received, in any medium, provided that the
+   copyright notice and this permission notice are preserved,
+   thus giving the recipient permission to redistribute in turn.</p>
+
+<p>Permission is granted to distribute modified versions
+   of this document, or of portions of it,
+   under the above conditions, provided also that they
+   carry prominent notices stating who last changed them.</p>
+
+<p>Local Variables:
+mode: outline
+paragraph-separate: "[  ]*$"
+version-control: never
+End:</p>
+        </section>
+
+        <footer>
+          Gdbm is maintained by <a href="https://github.com/Distrotech">Distrotech</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
