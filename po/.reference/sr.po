@@ -1,0 +1,695 @@
+# Serbian translation of gdbm.
+# Copyright (C) 2012 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gdbm package.
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: gdbm-1.10\n"
+"Report-Msgid-Bugs-To: bug-gdbm@gnu.org\n"
+"POT-Creation-Date: 2011-11-13 11:47+0200\n"
+"PO-Revision-Date: 2012-05-22 09:53+0200\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"Language-Team: Serbian <gnu@prevod.org>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: src/gdbmerrno.c:31
+msgid "No error"
+msgstr "Нема грешака"
+
+#: src/gdbmerrno.c:32
+msgid "Malloc error"
+msgstr "Грешка доделе меморије"
+
+#: src/gdbmerrno.c:33
+msgid "Block size error"
+msgstr "Грешка величине блока"
+
+#: src/gdbmerrno.c:34
+msgid "File open error"
+msgstr "Грешка отварања датотеке"
+
+#: src/gdbmerrno.c:35
+msgid "File write error"
+msgstr "Грешка писања датотеке"
+
+#: src/gdbmerrno.c:36
+msgid "File seek error"
+msgstr "Грешка премотавања датотеке"
+
+#: src/gdbmerrno.c:37
+msgid "File read error"
+msgstr "Грешка читања датотеке"
+
+#: src/gdbmerrno.c:38
+msgid "Bad magic number"
+msgstr "Лош магични број"
+
+#: src/gdbmerrno.c:39
+msgid "Empty database"
+msgstr "Празна база података"
+
+#: src/gdbmerrno.c:40
+msgid "Can't be reader"
+msgstr "Не може бити читач"
+
+#: src/gdbmerrno.c:41
+msgid "Can't be writer"
+msgstr "Не може бити писач"
+
+#: src/gdbmerrno.c:42
+msgid "Reader can't delete"
+msgstr "Читач не може да обрише"
+
+#: src/gdbmerrno.c:43
+msgid "Reader can't store"
+msgstr "Читач не може да складишти"
+
+#: src/gdbmerrno.c:44
+msgid "Reader can't reorganize"
+msgstr "Читач не може да преорганизује"
+
+#: src/gdbmerrno.c:45
+msgid "Unknown update"
+msgstr "Непознато ажурирање"
+
+#: src/gdbmerrno.c:46 src/testgdbm.c:395
+#, c-format
+msgid "Item not found"
+msgstr "Ставка није нађена"
+
+#: src/gdbmerrno.c:47
+msgid "Reorganize failed"
+msgstr "Преорганизовање није успело"
+
+#: src/gdbmerrno.c:48
+msgid "Cannot replace"
+msgstr "Не могу да заменим"
+
+#: src/gdbmerrno.c:49
+msgid "Illegal data"
+msgstr "Неисправни подаци"
+
+#: src/gdbmerrno.c:50
+msgid "Option already set"
+msgstr "Опција је већ подешена"
+
+#: src/gdbmerrno.c:51
+msgid "Illegal option"
+msgstr "Неисправна опција"
+
+#: src/gdbmerrno.c:52
+msgid "Byte-swapped file"
+msgstr "Датотека размењеног бајта"
+
+#: src/gdbmerrno.c:53
+msgid "Wrong file offset"
+msgstr "Погрешан померај датотеке"
+
+#: src/gdbmerrno.c:54
+msgid "Bad file flags"
+msgstr "Лоше заставице датотеке"
+
+#: src/gdbmerrno.c:55
+msgid "Cannot stat file"
+msgstr "Не могу да добавим податке о датотеци"
+
+#: src/gdbmerrno.c:56
+msgid "Unexpected end of file"
+msgstr "Неочекиван крај датотеке"
+
+#: src/gdbmerrno.c:64
+msgid "Unknown error"
+msgstr "Непозната грешка"
+
+#: src/bucket.c:67 src/bucket.c:148
+msgid "couldn't init cache"
+msgstr "не могу да покренем оставу"
+
+#: src/bucket.c:97 src/bucket.c:311 src/falloc.c:185 src/falloc.c:282
+#: src/findkey.c:64 src/update.c:36 src/update.c:82
+msgid "lseek error"
+msgstr "грешка премотавања реда"
+
+#: src/bucket.c:188 src/falloc.c:259 src/findkey.c:57 src/gdbmseq.c:73
+msgid "malloc error"
+msgstr "грешка доделе меморије"
+
+#: src/falloc.c:181
+msgid "malloc failed"
+msgstr "није успела додела меморије"
+
+#: src/testgdbm.c:82
+#, c-format
+msgid ""
+"******* %s **********\n"
+"\n"
+"bits = %d\n"
+"count= %d\n"
+"Hash Table:\n"
+msgstr ""
+"******* %s **********\n"
+"\n"
+"бита = %d\n"
+"број = %d\n"
+"Хеш табела:\n"
+
+#: src/testgdbm.c:85
+#, c-format
+msgid "     #    hash value     key size    data size     data adr  home\n"
+msgstr "     #    хеш вредност     величина кључа     величина податка    адреса података  полазна\n"
+
+#: src/testgdbm.c:95
+#, c-format
+msgid ""
+"\n"
+"Avail count = %1d\n"
+msgstr ""
+"\n"
+"Укупно доступно = %1d\n"
+
+#: src/testgdbm.c:96
+#, c-format
+msgid "Avail  adr     size\n"
+msgstr "Велчна дстпне адрсе\n"
+
+#: src/testgdbm.c:121 src/testgdbm.c:175
+#, c-format
+msgid "Out of memory"
+msgstr "Нема више меморије"
+
+#: src/testgdbm.c:160
+#, c-format
+msgid ""
+"\n"
+"header block\n"
+"size  = %d\n"
+"count = %d\n"
+msgstr ""
+"\n"
+"блок заглавља\n"
+"величина = %d\n"
+"укупно   = %d\n"
+
+#: src/testgdbm.c:196
+#, c-format
+msgid ""
+"\n"
+"block = %d\n"
+"size  = %d\n"
+"count = %d\n"
+msgstr ""
+"\n"
+"блок     = %d\n"
+"величина = %d\n"
+"укупно   = %d\n"
+
+#: src/testgdbm.c:217
+#, c-format
+msgid ""
+"Bucket Cache (size %d):\n"
+"  Index:  Address  Changed  Data_Hash \n"
+msgstr ""
+"Остава ведра (величина %d):\n"
+"  Индекс:  Адреса  Измењен  Хеш_података \n"
+
+#: src/testgdbm.c:225
+msgid "True"
+msgstr "Тачно"
+
+#: src/testgdbm.c:225
+msgid "False"
+msgstr "Нетачно"
+
+#: src/testgdbm.c:230
+#, c-format
+msgid "Bucket cache has not been initialized.\n"
+msgstr "Ведро оставе није покренуто.\n"
+
+#: src/testgdbm.c:236
+#, c-format
+msgid "Usage: %s OPTIONS\n"
+msgstr "Употреба: %s ОПЦИЈЕ\n"
+
+#: src/testgdbm.c:237
+#, c-format
+msgid "Test and modify a GDBM database.\n"
+msgstr "Испробајте и измените ГДБМ базу података.\n"
+
+#: src/testgdbm.c:239
+#, c-format
+msgid ""
+"OPTIONS are:\n"
+"\n"
+msgstr ""
+"ОПЦИЈЕ су:\n"
+"\n"
+
+#: src/testgdbm.c:240
+#, c-format
+msgid "  -b SIZE            set block size\n"
+msgstr "  -b ВЕЛИЧИНА        подешава величину блока\n"
+
+#: src/testgdbm.c:241
+#, c-format
+msgid "  -c SIZE            set cache size\n"
+msgstr "  -c ВЕЛИЧИНА        подешава величину оставе\n"
+
+#: src/testgdbm.c:242
+#, c-format
+msgid "  -g FILE            operate on FILE instead of `junk.gdbm'\n"
+msgstr "  -g ДАТОТЕКА        ради над ДАТОТЕКОМ уместо над „junk.gdbm“\n"
+
+#: src/testgdbm.c:243
+#, c-format
+msgid "  -h                 print this help summary\n"
+msgstr "  -h                 исписује сажатак ове помоћи\n"
+
+#: src/testgdbm.c:244
+#, c-format
+msgid "  -l                 disable file locking\n"
+msgstr "  -l                 искључује закључавање датотеке\n"
+
+#: src/testgdbm.c:245
+#, c-format
+msgid "  -m                 disable file mmap\n"
+msgstr "  -m                 искључује мапирање датотеке у меморију\n"
+
+#: src/testgdbm.c:246
+#, c-format
+msgid "  -n                 create database\n"
+msgstr "  -n                 прави базу података\n"
+
+#: src/testgdbm.c:247
+#, c-format
+msgid "  -r                 open database in read-only mode\n"
+msgstr "  -r                 отвара базу података у режиму само за читање\n"
+
+#: src/testgdbm.c:248
+#, c-format
+msgid "  -s                 synchronize to the disk after each write\n"
+msgstr "  -s                 усаглашава се са диском након сваког уписа\n"
+
+#: src/testgdbm.c:249
+#, c-format
+msgid "  -v                 print program version\n"
+msgstr "  -v                 исписује издање програма\n"
+
+#: src/testgdbm.c:251
+#, c-format
+msgid "Report bugs to <%s>.\n"
+msgstr "Грешке пријавите на <%s>.\n"
+
+#: src/testgdbm.c:290
+#, c-format
+msgid "cannot open file `%s' for reading: %s"
+msgstr "не могу да отворим датотеку „%s“ за читање: %s"
+
+#: src/testgdbm.c:301
+#, c-format
+msgid "%s:%d: line too long"
+msgstr "%s:%d: ред је предуг"
+
+#: src/testgdbm.c:309
+#, c-format
+msgid "%s:%d: malformed line"
+msgstr "%s:%d: лош ред"
+
+#: src/testgdbm.c:320
+#, c-format
+msgid "%d: item not inserted: %s"
+msgstr "%d: ставка није уметнута: %s"
+
+#: src/testgdbm.c:379
+#, c-format
+msgid "There is %d item in the database.\n"
+msgid_plural "There are %d items in the database.\n"
+msgstr[0] "Постоји %d ставка у бази података.\n"
+msgstr[1] "Постоје %d ставке у бази података.\n"
+msgstr[2] "Постоји %d ставки у бази података.\n"
+
+#: src/testgdbm.c:397
+#, c-format
+msgid "Can't delete: %s"
+msgstr "Не могу да обришем: %s"
+
+#: src/testgdbm.c:416 src/testgdbm.c:450 src/testgdbm.c:475
+#, c-format
+msgid "No such item found.\n"
+msgstr "Нисам пронашао такву ставку.\n"
+
+#: src/testgdbm.c:431
+#, c-format
+msgid "Item not inserted.\n"
+msgstr "Ставка није уметнута.\n"
+
+#: src/testgdbm.c:487
+#, c-format
+msgid "Reorganization failed.\n"
+msgstr "Преорганизација није успела.\n"
+
+#: src/testgdbm.c:489
+#, c-format
+msgid "Reorganization succeeded.\n"
+msgstr "Преорганизација је успела.\n"
+
+#: src/testgdbm.c:521
+msgid "Current bucket"
+msgstr "Тренутно ведро"
+
+#: src/testgdbm.c:522
+#, c-format
+msgid ""
+"\n"
+" current directory entry = %d.\n"
+msgstr ""
+"\n"
+" унос тренутног директоријума = %d.\n"
+
+#: src/testgdbm.c:524
+#, c-format
+msgid " current bucket address  = %lu.\n"
+msgstr " адреса тренутног ведра       = %lu.\n"
+
+#: src/testgdbm.c:535 src/testgdbm.c:544
+#, c-format
+msgid "not a number (stopped near %s)\n"
+msgstr "није број (стадох близу %s)\n"
+
+#: src/testgdbm.c:563
+#, c-format
+msgid "Not a bucket.\n"
+msgstr "Није ведро.\n"
+
+#: src/testgdbm.c:588
+#, c-format
+msgid "Hash table directory.\n"
+msgstr "Директоријум хеш табеле.\n"
+
+#: src/testgdbm.c:589
+#, c-format
+msgid ""
+"  Size =  %d.  Bits = %d. \n"
+"\n"
+msgstr ""
+"  Величина =  %d.  Бита = %d. \n"
+"\n"
+
+#: src/testgdbm.c:608
+#, c-format
+msgid ""
+"\n"
+"File Header: \n"
+"\n"
+msgstr ""
+"\n"
+"Заглавље датотеке: \n"
+"\n"
+
+#: src/testgdbm.c:609
+#, c-format
+msgid "  table        = %lu\n"
+msgstr "  табела            = %lu\n"
+
+#: src/testgdbm.c:611
+#, c-format
+msgid "  table size   = %d\n"
+msgstr "  величина табеле   = %d\n"
+
+#: src/testgdbm.c:612
+#, c-format
+msgid "  table bits   = %d\n"
+msgstr "  битови табеле     = %d\n"
+
+#: src/testgdbm.c:613
+#, c-format
+msgid "  block size   = %d\n"
+msgstr "  величина блока    = %d\n"
+
+#: src/testgdbm.c:614
+#, c-format
+msgid "  bucket elems = %d\n"
+msgstr "  елементи ведра    = %d\n"
+
+#: src/testgdbm.c:615
+#, c-format
+msgid "  bucket size  = %d\n"
+msgstr "  величина ведра    = %d\n"
+
+#: src/testgdbm.c:616
+#, c-format
+msgid "  header magic = %x\n"
+msgstr "  магија заглавља   = %x\n"
+
+#: src/testgdbm.c:617
+#, c-format
+msgid "  next block   = %lu\n"
+msgstr "  следећи блок      = %lu\n"
+
+#: src/testgdbm.c:619
+#, c-format
+msgid "  avail size   = %d\n"
+msgstr "  доступна величина = %d\n"
+
+#: src/testgdbm.c:620
+#, c-format
+msgid "  avail count  = %d\n"
+msgstr "  доступан количина = %d\n"
+
+#: src/testgdbm.c:621
+#, c-format
+msgid "  avail nx blk = %lu\n"
+msgstr "  достпн слдћи блк  = %lu\n"
+
+#: src/testgdbm.c:633
+#, c-format
+msgid "hash value = %x. \n"
+msgstr "вредност хеша = %x. \n"
+
+#: src/testgdbm.c:689
+#, c-format
+msgid "cannot fetch data (key %.*s)"
+msgstr "не могу да довучем податке (кључ %.*s)"
+
+#: src/testgdbm.c:722
+#, c-format
+msgid "gdbm_export failed, %s"
+msgstr "гдбм_извези није успело, %s"
+
+#: src/testgdbm.c:735
+#, c-format
+msgid "gdbm_import failed, %s"
+msgstr "гдбм_увези није успело, %s"
+
+#: src/testgdbm.c:741
+msgid "yes"
+msgstr "да"
+
+#: src/testgdbm.c:741
+msgid "no"
+msgstr "не"
+
+#: src/testgdbm.c:749
+#, c-format
+msgid "Database file: %s\n"
+msgstr "Датотека базе података: %s\n"
+
+#: src/testgdbm.c:750 src/testgdbm.c:760
+#, c-format
+msgid "Zero terminated keys: %s\n"
+msgstr "Нулом окончани кључеви: %s\n"
+
+#: src/testgdbm.c:751
+#, c-format
+msgid "Zero terminated data: %s\n"
+msgstr "Нулом окончани подаци: %s\n"
+
+#: src/testgdbm.c:792
+msgid "count (number of entries)"
+msgstr "број (укупан број уноса)"
+
+#: src/testgdbm.c:795 src/testgdbm.c:801 src/testgdbm.c:813 src/testgdbm.c:845
+msgid "key"
+msgstr "кључ"
+
+#: src/testgdbm.c:795
+msgid "delete"
+msgstr "обриши"
+
+#: src/testgdbm.c:798 src/testgdbm.c:804 src/testgdbm.c:819
+msgid "file"
+msgstr "датотека"
+
+#: src/testgdbm.c:798
+msgid "export"
+msgstr "извези"
+
+#: src/testgdbm.c:801
+msgid "fetch"
+msgstr "довуци"
+
+#: src/testgdbm.c:804
+msgid "import"
+msgstr "увези"
+
+#: src/testgdbm.c:807
+msgid "list"
+msgstr "списак"
+
+#: src/testgdbm.c:810
+msgid "[key]"
+msgstr "[кључ]"
+
+#: src/testgdbm.c:810
+msgid "nextkey"
+msgstr "следећи кључ"
+
+#: src/testgdbm.c:813
+msgid "data"
+msgstr "подаци"
+
+#: src/testgdbm.c:813
+msgid "store"
+msgstr "смештај"
+
+#: src/testgdbm.c:816
+msgid "firstkey"
+msgstr "први кључ"
+
+#: src/testgdbm.c:820
+msgid "read entries from file and store"
+msgstr "чита уносе из датотеке и смешта их"
+
+#: src/testgdbm.c:823
+msgid "reorganize"
+msgstr "преорганизује"
+
+#: src/testgdbm.c:826
+msgid "toggle key nul-termination"
+msgstr "окида ништавно окончање кључа"
+
+#: src/testgdbm.c:829
+msgid "print avail list"
+msgstr "исписује доступан списак"
+
+#: src/testgdbm.c:832
+msgid "bucket-number"
+msgstr "број-ведра"
+
+#: src/testgdbm.c:832
+msgid "print a bucket"
+msgstr "исписује ведро"
+
+#: src/testgdbm.c:836
+msgid "print current bucket"
+msgstr "исписује тренутно ведро"
+
+#: src/testgdbm.c:839
+msgid "print hash directory"
+msgstr "исписује хеш директоријум"
+
+#: src/testgdbm.c:842
+msgid "print file header"
+msgstr "исписује заглавље датотеке"
+
+#: src/testgdbm.c:845
+msgid "hash value of key"
+msgstr "хеш вредност кључа"
+
+#: src/testgdbm.c:848
+msgid "print the bucket cache"
+msgstr "исписује оставу ведра"
+
+#: src/testgdbm.c:851
+msgid "print current program status"
+msgstr "исписује стање тренутног програма"
+
+#: src/testgdbm.c:854
+msgid "print version of gdbm"
+msgstr "исписује издање гдбм-а"
+
+#: src/testgdbm.c:857
+msgid "toggle data nul-termination"
+msgstr "окида ништавно окончање података"
+
+#: src/testgdbm.c:860
+msgid "print this help list"
+msgstr "исписује овај списак помоћи"
+
+#: src/testgdbm.c:863
+msgid "quit the program"
+msgstr "излази из програма"
+
+#: src/testgdbm.c:1063
+#, c-format
+msgid "-s is incompatible with -r"
+msgstr "-s није сагласно са -r"
+
+#: src/testgdbm.c:1070
+#, c-format
+msgid "-r is incompatible with -n"
+msgstr "-r није сагласно са -n"
+
+#: src/testgdbm.c:1077
+#, c-format
+msgid "-n is incompatible with -r"
+msgstr "-n није сагласно са -r"
+
+#: src/testgdbm.c:1099
+#, c-format
+msgid "unknown option; try `%s -h' for more info\n"
+msgstr "непозната опција; покушајте „%s -h“ за више поидатака\n"
+
+#: src/testgdbm.c:1123
+#, c-format
+msgid "gdbm_open failed: %s"
+msgstr "гдбм_отвори није успело: %s"
+
+#: src/testgdbm.c:1127
+#, c-format
+msgid "gdbm_setopt failed: %s"
+msgstr "гдбм_подесиопцију није успело: %s"
+
+#: src/testgdbm.c:1133
+#, c-format
+msgid ""
+"\n"
+"Welcome to the gdbm test program.  Type ? for help.\n"
+"\n"
+msgstr ""
+"\n"
+"Добродошли у гдбм програм за испробавање.  Укуцајте ? за помоћ.\n"
+"\n"
+
+#: src/testgdbm.c:1166
+#, c-format
+msgid "Invalid command. Try ? for help."
+msgstr "Неисправна наредба. Покушајте ? за помоћ."
+
+#: src/testgdbm.c:1167
+#, c-format
+msgid "Unknown command"
+msgstr "Непозната наредба"
+
+#: src/testgdbm.c:1182
+#, c-format
+msgid "%s: not enough arguments"
+msgstr "%s: нема довољно аргумената"
+
+#: src/testgdbm.c:1187
+#, c-format
+msgid "unexpected eof"
+msgstr "неочекиван крај датотеке"
+
+#: src/testgdbm.c:1208
+#, c-format
+msgid "cannot run pager `%s': %s"
+msgstr "не могу да покренем страничара „%s“: %s"
+
+#: src/update.c:110
+#, c-format
+msgid "gdbm fatal: %s\n"
+msgstr "кобност гдбм-а: %s\n"

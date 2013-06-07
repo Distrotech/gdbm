@@ -1,0 +1,699 @@
+# French translation of gdbm.
+# Copyright (C) 2011 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gdbm package.
+# Frédéric Marchal <fmarchal@perso.be>, 2011.
+#
+# Je ne désire pas continuer cette traduction. Quiconque voudrait prendre la relève
+# est le bienvenu.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gdbm 1.10\n"
+"Report-Msgid-Bugs-To: bug-gdbm@gnu.org\n"
+"POT-Creation-Date: 2011-11-13 11:47+0200\n"
+"PO-Revision-Date: 2011-11-18 19:57+0100\n"
+"Last-Translator: Frédéric Marchal <fmarchal@perso.be>\n"
+"Language-Team: French <traduc@traduc.org>\n"
+"Language: Fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: src/gdbmerrno.c:31
+msgid "No error"
+msgstr "Pas d'erreur"
+
+#: src/gdbmerrno.c:32
+msgid "Malloc error"
+msgstr "Erreur malloc"
+
+#: src/gdbmerrno.c:33
+msgid "Block size error"
+msgstr "Erreur de taille de bloc"
+
+#: src/gdbmerrno.c:34
+msgid "File open error"
+msgstr "Erreur à l'ouverture du fichier"
+
+#: src/gdbmerrno.c:35
+msgid "File write error"
+msgstr "Erreur d'écriture dans le fichier"
+
+#: src/gdbmerrno.c:36
+msgid "File seek error"
+msgstr "Erreur de positionnement dans le fichier"
+
+#: src/gdbmerrno.c:37
+msgid "File read error"
+msgstr "Erreur de lecture dans le fichier"
+
+#: src/gdbmerrno.c:38
+msgid "Bad magic number"
+msgstr "Mauvais nombre magique"
+
+#: src/gdbmerrno.c:39
+msgid "Empty database"
+msgstr "Base de données vide"
+
+#: src/gdbmerrno.c:40
+msgid "Can't be reader"
+msgstr "Ne peut être un lecteur"
+
+#: src/gdbmerrno.c:41
+msgid "Can't be writer"
+msgstr "Ne peut être celui qui écrit"
+
+#: src/gdbmerrno.c:42
+msgid "Reader can't delete"
+msgstr "Un lecteur ne peut pas supprimer"
+
+#: src/gdbmerrno.c:43
+msgid "Reader can't store"
+msgstr "Un lecteur ne peut pas stocker"
+
+#: src/gdbmerrno.c:44
+msgid "Reader can't reorganize"
+msgstr "Un lecteur ne peut pas réorganiser"
+
+#: src/gdbmerrno.c:45
+msgid "Unknown update"
+msgstr "Mise à jour inconnue"
+
+#: src/gdbmerrno.c:46 src/testgdbm.c:395
+#, c-format
+msgid "Item not found"
+msgstr "Élément pas trouvé"
+
+#: src/gdbmerrno.c:47
+msgid "Reorganize failed"
+msgstr "La réorganisation a échoué"
+
+#: src/gdbmerrno.c:48
+msgid "Cannot replace"
+msgstr "Remplacement impossible"
+
+#: src/gdbmerrno.c:49
+msgid "Illegal data"
+msgstr "Donnée illégale"
+
+#: src/gdbmerrno.c:50
+msgid "Option already set"
+msgstr "Option déjà fixée"
+
+#: src/gdbmerrno.c:51
+msgid "Illegal option"
+msgstr "Option illégale"
+
+#: src/gdbmerrno.c:52
+msgid "Byte-swapped file"
+msgstr "Fichier à octets permutés"
+
+#: src/gdbmerrno.c:53
+msgid "Wrong file offset"
+msgstr "Mauvais décalage dans le fichier"
+
+#: src/gdbmerrno.c:54
+msgid "Bad file flags"
+msgstr "Mauvais fanions de fichier"
+
+#: src/gdbmerrno.c:55
+msgid "Cannot stat file"
+msgstr "stat échoue sur le fichier"
+
+#: src/gdbmerrno.c:56
+msgid "Unexpected end of file"
+msgstr "Fin du fichier inattendue"
+
+#: src/gdbmerrno.c:64
+msgid "Unknown error"
+msgstr "Erreur inconnue"
+
+#: src/bucket.c:67 src/bucket.c:148
+msgid "couldn't init cache"
+msgstr "La cache n'a pas pu être initialisée"
+
+#: src/bucket.c:97 src/bucket.c:311 src/falloc.c:185 src/falloc.c:282
+#: src/findkey.c:64 src/update.c:36 src/update.c:82
+msgid "lseek error"
+msgstr "Erreur lseek"
+
+#: src/bucket.c:188 src/falloc.c:259 src/findkey.c:57 src/gdbmseq.c:73
+msgid "malloc error"
+msgstr "Erreur malloc"
+
+#: src/falloc.c:181
+msgid "malloc failed"
+msgstr "malloc a échoué"
+
+#: src/testgdbm.c:82
+#, c-format
+msgid ""
+"******* %s **********\n"
+"\n"
+"bits = %d\n"
+"count= %d\n"
+"Hash Table:\n"
+msgstr ""
+"******* %s **********\n"
+"\n"
+"bits = %d\n"
+"nombre= %d\n"
+"Table de hachage:\n"
+
+#: src/testgdbm.c:85
+#, c-format
+msgid "     #    hash value     key size    data size     data adr  home\n"
+msgstr "     #    valeur hash    taille clé  taille donnée adr donnée accueil\n"
+
+#: src/testgdbm.c:95
+#, c-format
+msgid ""
+"\n"
+"Avail count = %1d\n"
+msgstr ""
+"\n"
+"Nombre disponible = %1d\n"
+
+#: src/testgdbm.c:96
+#, c-format
+msgid "Avail  adr     size\n"
+msgstr "Disp   adr     taille\n"
+
+#: src/testgdbm.c:121 src/testgdbm.c:175
+#, c-format
+msgid "Out of memory"
+msgstr "À cours de mémoire"
+
+#: src/testgdbm.c:160
+#, c-format
+msgid ""
+"\n"
+"header block\n"
+"size  = %d\n"
+"count = %d\n"
+msgstr ""
+"\n"
+"bloc d'en-tête\n"
+"taille = %d\n"
+"nombre = %d\n"
+
+#: src/testgdbm.c:196
+#, c-format
+msgid ""
+"\n"
+"block = %d\n"
+"size  = %d\n"
+"count = %d\n"
+msgstr ""
+"\n"
+"bloc   = %d\n"
+"taille = %d\n"
+"nombre = %d\n"
+
+#: src/testgdbm.c:217
+#, c-format
+msgid ""
+"Bucket Cache (size %d):\n"
+"  Index:  Address  Changed  Data_Hash \n"
+msgstr ""
+"Cache compartimentée (taille %d):\n"
+"  Index:  Adresse  Changé   Data_Hash \n"
+
+#: src/testgdbm.c:225
+msgid "True"
+msgstr "Vrai"
+
+#: src/testgdbm.c:225
+msgid "False"
+msgstr "Faux"
+
+#: src/testgdbm.c:230
+#, c-format
+msgid "Bucket cache has not been initialized.\n"
+msgstr "La cache compartimentée n'a pas été initialisée.\n"
+
+#: src/testgdbm.c:236
+#, c-format
+msgid "Usage: %s OPTIONS\n"
+msgstr "Usage: %s OPTIONS\n"
+
+#: src/testgdbm.c:237
+#, c-format
+msgid "Test and modify a GDBM database.\n"
+msgstr "Teste et modifie une base de données GDBM.\n"
+
+#: src/testgdbm.c:239
+#, c-format
+msgid ""
+"OPTIONS are:\n"
+"\n"
+msgstr ""
+"Les OPTIONS sont:\n"
+"\n"
+
+#: src/testgdbm.c:240
+#, c-format
+msgid "  -b SIZE            set block size\n"
+msgstr "  -b TAILLE          fixer la taille des blocs\n"
+
+#: src/testgdbm.c:241
+#, c-format
+msgid "  -c SIZE            set cache size\n"
+msgstr "  -c TAILLE          fixez la taille de la cache\n"
+
+#: src/testgdbm.c:242
+#, c-format
+msgid "  -g FILE            operate on FILE instead of `junk.gdbm'\n"
+msgstr "  -g FICHIER         agir sur FICHIER au lieu de « junk.gdbm »\n"
+
+#: src/testgdbm.c:243
+#, c-format
+msgid "  -h                 print this help summary\n"
+msgstr "  -h                 afficher cette aide\n"
+
+#: src/testgdbm.c:244
+#, c-format
+msgid "  -l                 disable file locking\n"
+msgstr "  -l                 désactiver le verrouillage du fichier\n"
+
+#: src/testgdbm.c:245
+#, c-format
+msgid "  -m                 disable file mmap\n"
+msgstr "  -m                 désactiver mmap sur fichier\n"
+
+#: src/testgdbm.c:246
+#, c-format
+msgid "  -n                 create database\n"
+msgstr "  -n                 créer la base de données\n"
+
+#: src/testgdbm.c:247
+#, c-format
+msgid "  -r                 open database in read-only mode\n"
+msgstr "  -r                 ouvrir la base de données en lecture seule\n"
+
+#: src/testgdbm.c:248
+#, c-format
+msgid "  -s                 synchronize to the disk after each write\n"
+msgstr "  -s                 synchroniser sur le disque après chaque écriture\n"
+
+#: src/testgdbm.c:249
+#, c-format
+msgid "  -v                 print program version\n"
+msgstr "  -v                 afficher la version du programme\n"
+
+#: src/testgdbm.c:251
+#, c-format
+msgid "Report bugs to <%s>.\n"
+msgstr "Signalez les bugs à <%s>.\n"
+
+#: src/testgdbm.c:290
+#, c-format
+msgid "cannot open file `%s' for reading: %s"
+msgstr "impossible d'ouvrir le fichier « %s » en lecture: %s"
+
+#: src/testgdbm.c:301
+#, c-format
+msgid "%s:%d: line too long"
+msgstr "%s:%d: ligne trop longue"
+
+#: src/testgdbm.c:309
+#, c-format
+msgid "%s:%d: malformed line"
+msgstr "%s:%d: ligne mal formée"
+
+#: src/testgdbm.c:320
+#, c-format
+msgid "%d: item not inserted: %s"
+msgstr "%d: élément pas inséré: %s"
+
+#: src/testgdbm.c:379
+#, c-format
+msgid "There is %d item in the database.\n"
+msgid_plural "There are %d items in the database.\n"
+msgstr[0] "Il y a %d élément dans la base de données.\n"
+msgstr[1] "Il y a %d éléments dans la base de données.\n"
+
+#: src/testgdbm.c:397
+#, c-format
+msgid "Can't delete: %s"
+msgstr "Ne peut supprimer: %s"
+
+#: src/testgdbm.c:416 src/testgdbm.c:450 src/testgdbm.c:475
+#, c-format
+msgid "No such item found.\n"
+msgstr "Cet élément n'a pas été trouvé.\n"
+
+#: src/testgdbm.c:431
+#, c-format
+msgid "Item not inserted.\n"
+msgstr "Élément pas inséré.\n"
+
+#: src/testgdbm.c:487
+#, c-format
+msgid "Reorganization failed.\n"
+msgstr "La réorganisation a échoué.\n"
+
+#: src/testgdbm.c:489
+#, c-format
+msgid "Reorganization succeeded.\n"
+msgstr "La réorganisation a réussi.\n"
+
+#: src/testgdbm.c:521
+msgid "Current bucket"
+msgstr "Compartiment actuel"
+
+#: src/testgdbm.c:522
+#, c-format
+msgid ""
+"\n"
+" current directory entry = %d.\n"
+msgstr ""
+"\n"
+" entrée du répertoire courant = %d.\n"
+
+#: src/testgdbm.c:524
+#, c-format
+msgid " current bucket address  = %lu.\n"
+msgstr " adresse du compartiment courant = %lu.\n"
+
+#: src/testgdbm.c:535 src/testgdbm.c:544
+#, c-format
+msgid "not a number (stopped near %s)\n"
+msgstr "pas un nombre (arrêté près de %s)\n"
+
+#: src/testgdbm.c:563
+#, c-format
+msgid "Not a bucket.\n"
+msgstr "Pas un compartiment.\n"
+
+#: src/testgdbm.c:588
+#, c-format
+msgid "Hash table directory.\n"
+msgstr "Répertoire de table de hachage.\n"
+
+#: src/testgdbm.c:589
+#, c-format
+msgid ""
+"  Size =  %d.  Bits = %d. \n"
+"\n"
+msgstr ""
+"  Taille = %d. Bits = %d.\n"
+"\n"
+
+#: src/testgdbm.c:608
+#, c-format
+msgid ""
+"\n"
+"File Header: \n"
+"\n"
+msgstr ""
+"\n"
+"En-tête fichier: \n"
+"\n"
+
+#: src/testgdbm.c:609
+#, c-format
+msgid "  table        = %lu\n"
+msgstr "  table        = %lu\n"
+
+#: src/testgdbm.c:611
+#, c-format
+msgid "  table size   = %d\n"
+msgstr "  taille table = %d\n"
+
+#: src/testgdbm.c:612
+#, c-format
+msgid "  table bits   = %d\n"
+msgstr "  bits table   = %d\n"
+
+#: src/testgdbm.c:613
+#, c-format
+msgid "  block size   = %d\n"
+msgstr "  taille bloc  = %d\n"
+
+#: src/testgdbm.c:614
+#, c-format
+msgid "  bucket elems = %d\n"
+msgstr "  elts compart = %d\n"
+
+#: src/testgdbm.c:615
+#, c-format
+msgid "  bucket size  = %d\n"
+msgstr "  taille compart = %d\n"
+
+#: src/testgdbm.c:616
+#, c-format
+msgid "  header magic = %x\n"
+msgstr "  magic en-tête = %x\n"
+
+#: src/testgdbm.c:617
+#, c-format
+msgid "  next block   = %lu\n"
+msgstr "  bloc suivant = %lu\n"
+
+#: src/testgdbm.c:619
+#, c-format
+msgid "  avail size   = %d\n"
+msgstr "  taille dispo = %d\n"
+
+#: src/testgdbm.c:620
+#, c-format
+msgid "  avail count  = %d\n"
+msgstr "  nombre dispo = %d\n"
+
+#: src/testgdbm.c:621
+#, c-format
+msgid "  avail nx blk = %lu\n"
+msgstr "  bloc suivant dispo = %lu\n"
+
+#: src/testgdbm.c:633
+#, c-format
+msgid "hash value = %x. \n"
+msgstr "valeur hachage = %x. \n"
+
+#: src/testgdbm.c:689
+#, c-format
+msgid "cannot fetch data (key %.*s)"
+msgstr "ne peut récupérer la donnée (clé %.*s)"
+
+#: src/testgdbm.c:722
+#, c-format
+msgid "gdbm_export failed, %s"
+msgstr "gdbm_export a échoué, %s"
+
+#: src/testgdbm.c:735
+#, c-format
+msgid "gdbm_import failed, %s"
+msgstr "gdbm_import a échoué, %s"
+
+#: src/testgdbm.c:741
+msgid "yes"
+msgstr "oui"
+
+#: src/testgdbm.c:741
+msgid "no"
+msgstr "non"
+
+#: src/testgdbm.c:749
+#, c-format
+msgid "Database file: %s\n"
+msgstr "Ficher base de données: %s\n"
+
+#: src/testgdbm.c:750 src/testgdbm.c:760
+#, c-format
+msgid "Zero terminated keys: %s\n"
+msgstr "Clés terminées par un zéro: %s\n"
+
+#: src/testgdbm.c:751
+#, c-format
+msgid "Zero terminated data: %s\n"
+msgstr "Données terminées par un zéro: %s\n"
+
+#: src/testgdbm.c:792
+msgid "count (number of entries)"
+msgstr "nombre (nombre d'entrées)"
+
+#: src/testgdbm.c:795 src/testgdbm.c:801 src/testgdbm.c:813 src/testgdbm.c:845
+msgid "key"
+msgstr "clé"
+
+#: src/testgdbm.c:795
+msgid "delete"
+msgstr "supprimer"
+
+#: src/testgdbm.c:798 src/testgdbm.c:804 src/testgdbm.c:819
+msgid "file"
+msgstr "fichier"
+
+#: src/testgdbm.c:798
+msgid "export"
+msgstr "exporter"
+
+#: src/testgdbm.c:801
+msgid "fetch"
+msgstr "récupérer"
+
+#: src/testgdbm.c:804
+msgid "import"
+msgstr "importer"
+
+#: src/testgdbm.c:807
+msgid "list"
+msgstr "lister"
+
+#: src/testgdbm.c:810
+msgid "[key]"
+msgstr "[clé]"
+
+#: src/testgdbm.c:810
+msgid "nextkey"
+msgstr "nextkey"
+
+#: src/testgdbm.c:813
+msgid "data"
+msgstr "donnée"
+
+#: src/testgdbm.c:813
+msgid "store"
+msgstr "stockage"
+
+#: src/testgdbm.c:816
+msgid "firstkey"
+msgstr "firstkey"
+
+#: src/testgdbm.c:820
+msgid "read entries from file and store"
+msgstr "lis les entrées dans le fichier et les stocke"
+
+#: src/testgdbm.c:823
+msgid "reorganize"
+msgstr "réorganiser"
+
+#: src/testgdbm.c:826
+msgid "toggle key nul-termination"
+msgstr "(dés)activer la terminaison des clés par un zéro"
+
+#: src/testgdbm.c:829
+msgid "print avail list"
+msgstr "afficher la liste des emplacements libres"
+
+#: src/testgdbm.c:832
+msgid "bucket-number"
+msgstr "numéro compartiment"
+
+#: src/testgdbm.c:832
+msgid "print a bucket"
+msgstr "afficher un compartiment"
+
+#: src/testgdbm.c:836
+msgid "print current bucket"
+msgstr "afficher le compartiment courant"
+
+#: src/testgdbm.c:839
+msgid "print hash directory"
+msgstr "afficher le répertoire de hachage"
+
+#: src/testgdbm.c:842
+msgid "print file header"
+msgstr "afficher l'en-tête du fichier"
+
+#: src/testgdbm.c:845
+msgid "hash value of key"
+msgstr "valeur de hachage de la clé"
+
+#: src/testgdbm.c:848
+msgid "print the bucket cache"
+msgstr "afficher la cache compartimentée"
+
+#: src/testgdbm.c:851
+msgid "print current program status"
+msgstr "afficher le statut actuel du programme"
+
+#: src/testgdbm.c:854
+msgid "print version of gdbm"
+msgstr "afficher la version de gdbm"
+
+#: src/testgdbm.c:857
+msgid "toggle data nul-termination"
+msgstr "(dés)activer la terminaison des données par un zéro"
+
+#: src/testgdbm.c:860
+msgid "print this help list"
+msgstr "afficher cette liste d'aide"
+
+#: src/testgdbm.c:863
+msgid "quit the program"
+msgstr "quitter le programme"
+
+#: src/testgdbm.c:1063
+#, c-format
+msgid "-s is incompatible with -r"
+msgstr "-s est incompatible avec -r"
+
+#: src/testgdbm.c:1070
+#, c-format
+msgid "-r is incompatible with -n"
+msgstr "-r est incompatible avec -n"
+
+#: src/testgdbm.c:1077
+#, c-format
+msgid "-n is incompatible with -r"
+msgstr "-n est incompatible avec -r"
+
+#: src/testgdbm.c:1099
+#, c-format
+msgid "unknown option; try `%s -h' for more info\n"
+msgstr "option inconnue; essayez « %s -h » pour obtenir plus d'informations\n"
+
+#: src/testgdbm.c:1123
+#, c-format
+msgid "gdbm_open failed: %s"
+msgstr "échec de gdbm_open: %s"
+
+#: src/testgdbm.c:1127
+#, c-format
+msgid "gdbm_setopt failed: %s"
+msgstr "échec de gdbm_setopt: %s"
+
+#: src/testgdbm.c:1133
+#, c-format
+msgid ""
+"\n"
+"Welcome to the gdbm test program.  Type ? for help.\n"
+"\n"
+msgstr ""
+"\n"
+"Bienvenu dans le programme de test de gdbm. Tapez ? pour l'aide.\n"
+"\n"
+
+#: src/testgdbm.c:1166
+#, c-format
+msgid "Invalid command. Try ? for help."
+msgstr "Commande invalide. Essayez ? pour l'aide."
+
+#: src/testgdbm.c:1167
+#, c-format
+msgid "Unknown command"
+msgstr "Commande inconnue"
+
+#: src/testgdbm.c:1182
+#, c-format
+msgid "%s: not enough arguments"
+msgstr "%s: pas assez d'arguments"
+
+#: src/testgdbm.c:1187
+#, c-format
+msgid "unexpected eof"
+msgstr "fin de fichier inattendue"
+
+#: src/testgdbm.c:1208
+#, c-format
+msgid "cannot run pager `%s': %s"
+msgstr "le pager « %s » ne démarre pas: %s"
+
+#: src/update.c:110
+#, c-format
+msgid "gdbm fatal: %s\n"
+msgstr "erreur fatale gdbm: %s\n"
