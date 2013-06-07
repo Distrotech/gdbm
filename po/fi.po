@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdbm 1.10.90\n"
 "Report-Msgid-Bugs-To: bug-gdbm@gnu.org\n"
-"POT-Creation-Date: 2013-05-19 00:17+0300\n"
+"POT-Creation-Date: 2013-06-07 22:59+0200\n"
 "PO-Revision-Date: 2013-05-20 10:59+0300\n"
 "Last-Translator: Jorma Karvonen <karvonen.jorma@gmail.com>\n"
 "Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
@@ -16,112 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: src/bucket.c:67 src/bucket.c:148
-msgid "couldn't init cache"
-msgstr "välimuistin alustaminen epäonnistui"
-
-#: src/bucket.c:97 src/bucket.c:311 src/falloc.c:185 src/falloc.c:282
-#: src/findkey.c:64 src/gdbmstore.c:140 src/update.c:36 src/update.c:82
-msgid "lseek error"
-msgstr "lseek-virhe"
-
-#: src/bucket.c:188 src/falloc.c:259 src/findkey.c:57 src/gdbmfetch.c:56
-#: src/gdbmseq.c:73
-msgid "malloc error"
-msgstr "malloc-virhe"
-
-#: src/falloc.c:181
-msgid "malloc failed"
-msgstr "malloc epäonnistui"
-
-#: src/gdbm_dump.c:25
-msgid "select dump format"
-msgstr "valitse vedosmuoto"
-
-#: src/gdbm_dump.c:67
-msgid "unknown dump format"
-msgstr "tuntematon vedosmuoto"
-
-#: src/gdbm_dump.c:74 src/gdbm_load.c:176
-msgid "unknown option"
-msgstr "tuntematon valitsin"
-
-#: src/gdbm_dump.c:90 src/gdbm_load.c:192
-#, c-format
-msgid "too many arguments; try `%s -h' for more info"
-msgstr "liian monta argumenttia; lisätietoja komennolla ”%s -h”"
-
-#: src/gdbm_dump.c:110 src/gdbm_load.c:212
-#, c-format
-msgid "cannot open %s"
-msgstr "sivuttajan %s suorittaminen epäonnistui"
-
-#: src/gdbm_dump.c:118 src/gdbm_load.c:222
-msgid "gdbm_open failed"
-msgstr "gdbm_open epäonnistui"
-
-#: src/gdbm_dump.c:125
-msgid "dump error"
-msgstr "vedosvirhe"
-
-#: src/gdbm_load.c:35
-msgid "replace records in the existing database"
-msgstr "korvaa tietueet olemassaolevassa tietokannassa"
-
-#: src/gdbm_load.c:36
-msgid "MODE"
-msgstr "TILA"
-
-#: src/gdbm_load.c:36
-msgid "set file mode"
-msgstr "aseta tiedostotila"
-
-#: src/gdbm_load.c:37
-msgid "NAME|UID[:NAME|GID]"
-msgstr "NIMI|UID[:NIMI|GID]"
-
-#: src/gdbm_load.c:37
-msgid "set file owner"
-msgstr "aseta tiedoston omistaja"
-
-#: src/gdbm_load.c:38
-msgid "do not attempt to set file meta-data"
-msgstr "älä yritä asettaa tiedoston metatietoja"
-
-#: src/gdbm_load.c:101
-#, c-format
-msgid "invalid octal number"
-msgstr "virheellinen oktaalinumero"
-
-#: src/gdbm_load.c:126
-#, c-format
-msgid "invalid user name: %s"
-msgstr "virheellinen käyttäjätunnus: %s"
-
-#: src/gdbm_load.c:145
-#, c-format
-msgid "invalid group name: %s"
-msgstr "virheellinen ryhmänimi: %s"
-
-#: src/gdbm_load.c:157
-#, c-format
-msgid "no such UID: %lu"
-msgstr "tuntematon UID: %lu"
-
-#: src/gdbm_load.c:238 src/gdbm_load.c:256 src/gdbmtool.c:795
-#, c-format
-msgid "error restoring metadata: %s (%s)"
-msgstr "virhe palautettaessa metatietoja: %s (%s)"
-
-#: src/gdbm_load.c:247
-#, c-format
-msgid "cannot load from %s"
-msgstr "kohteesta %s lataaminen epäonnistui"
-
-#: src/gdbm_load.c:264
-msgid "gdbm_setopt failed"
-msgstr "gdbm_setopt epäonnistui"
 
 #: src/gdbmerrno.c:31
 msgid "No error"
@@ -183,7 +77,8 @@ msgstr "Lukijan järjestäminen uudelleen epäonnistui"
 msgid "Unknown update"
 msgstr "Tuntematon päivitys"
 
-#: src/gdbmerrno.c:46 src/gdbmtool.c:392
+#: src/gdbmerrno.c:46 src/testgdbm.c:395
+#, c-format
 msgid "Item not found"
 msgstr "Alkiota ei löytynyt"
 
@@ -227,90 +122,28 @@ msgstr "Stat-toiminnon kutsuminen tiedostolle epäonnistui"
 msgid "Unexpected end of file"
 msgstr "Odottamaton tiedoston loppu"
 
-#: src/gdbmerrno.c:57
-msgid "Database name not given"
-msgstr "Tietokantanimeä ei ole annettu"
-
-#: src/gdbmerrno.c:58
-msgid "Failed to restore file owner"
-msgstr "Tiedoston omistajan palauttaminen epäonnistui"
-
-#: src/gdbmerrno.c:59
-msgid "Failed to restore file mode"
-msgstr "Tiedostotilan palauttaminen epäonnistui"
-
-#: src/gdbmerrno.c:67
+#: src/gdbmerrno.c:64
 msgid "Unknown error"
 msgstr "Tuntematon virhe"
 
-#: src/parseopt.c:49
-msgid "give this help list"
-msgstr "anna tämä opasteluettelo"
+#: src/bucket.c:67 src/bucket.c:148
+msgid "couldn't init cache"
+msgstr "välimuistin alustaminen epäonnistui"
 
-#: src/parseopt.c:50
-msgid "print program version"
-msgstr "tulosta ohjelmaversio"
+#: src/bucket.c:97 src/bucket.c:311 src/falloc.c:185 src/falloc.c:282
+#: src/findkey.c:64 src/update.c:36 src/update.c:82
+msgid "lseek error"
+msgstr "lseek-virhe"
 
-#: src/parseopt.c:51
-msgid "give a short usage message"
-msgstr "anna lyhyt käyttöviesti"
+#: src/bucket.c:188 src/falloc.c:259 src/findkey.c:57 src/gdbmseq.c:73
+msgid "malloc error"
+msgstr "malloc-virhe"
 
-#: src/parseopt.c:347 src/parseopt.c:431
-msgid "Usage:"
-msgstr "Käyttö:"
+#: src/falloc.c:181
+msgid "malloc failed"
+msgstr "malloc epäonnistui"
 
-#: src/parseopt.c:349
-msgid "OPTION"
-msgstr "VALITSIN"
-
-#: src/parseopt.c:364
-msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
-msgstr "Pakolliset tai valinnaiset argumentit pitkille valitsimille ovat pakollisia tai valinnaisia myös vastaaville lyhyille valitsimille."
-
-#. TRANSLATORS: The placeholder indicates the bug-reporting address
-#. for this package.  Please add _another line_ saying
-#. "Report translation bugs to <...>\n" with the address for translation
-#. bugs (typically your translation team's web or email address).
-#: src/parseopt.c:375
-#, c-format
-msgid "Report bugs to %s.\n"
-msgstr ""
-"Ilmoita vioista (englanniksi) osoitteeseen %s.\n"
-"Ilmoita käännösvirheistä osoitteeseen translation-team-fi@lists.sourceforge.net.\n"
-
-#: src/parseopt.c:378
-#, c-format
-msgid "%s home page: <%s>\n"
-msgstr "%s-kotisivu: <%s>\n"
-
-#. TRANSLATORS: Translate "(C)" to the copyright symbol
-#. (C-in-a-circle), if this symbol is available in the user's
-#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
-#: src/parseopt.c:541
-msgid "(C)"
-msgstr "©"
-
-#: src/gdbmtool.c:83
-#, c-format
-msgid "database %s already exists; overwrite"
-msgstr "tietokanta %s on jo olemasa; korvaa"
-
-#: src/gdbmtool.c:92
-#, c-format
-msgid "cannot open database %s: %s"
-msgstr "sivuttajan %s suorittaminen epäonnistui: %s"
-
-#: src/gdbmtool.c:99 src/gdbmtool.c:812
-#, c-format
-msgid "gdbm_setopt failed: %s"
-msgstr "gdbm_setopt epäonnistui: %s"
-
-#: src/gdbmtool.c:116
-#, c-format
-msgid "warning: using default database file %s"
-msgstr "varoitus: käytetään oletustietokantatiedostoa %s"
-
-#: src/gdbmtool.c:137
+#: src/testgdbm.c:82
 #, c-format
 msgid ""
 "******* %s **********\n"
@@ -325,12 +158,12 @@ msgstr ""
 "laskuri= %d\n"
 "Tiivistetaulu:\n"
 
-#: src/gdbmtool.c:140
+#: src/testgdbm.c:85
 #, c-format
 msgid "     #    hash value     key size    data size     data adr  home\n"
 msgstr "     #    tiivistearvo   avainkoko   tietokoko    tieto-osoite koti\n"
 
-#: src/gdbmtool.c:150
+#: src/testgdbm.c:95
 #, c-format
 msgid ""
 "\n"
@@ -339,12 +172,17 @@ msgstr ""
 "\n"
 "Käytettävissä oleva lukumäärä = %1d\n"
 
-#: src/gdbmtool.c:151
+#: src/testgdbm.c:96
 #, c-format
 msgid "Avail  adr     size\n"
 msgstr "Käytettävissä oleva osoite koko\n"
 
-#: src/gdbmtool.c:214
+#: src/testgdbm.c:121 src/testgdbm.c:175
+#, c-format
+msgid "Out of memory"
+msgstr "Muisti loppui"
+
+#: src/testgdbm.c:160
 #, c-format
 msgid ""
 "\n"
@@ -357,7 +195,7 @@ msgstr ""
 "koko  = %d\n"
 "lukumäärä = %d\n"
 
-#: src/gdbmtool.c:248
+#: src/testgdbm.c:196
 #, c-format
 msgid ""
 "\n"
@@ -371,7 +209,7 @@ msgstr ""
 "lukumäärä = %d\n"
 
 #  Esimerkiksi puhelinluettelon A-kirjaimella alkavat nimet muodostavat \"bucket\":in.
-#: src/gdbmtool.c:269
+#: src/testgdbm.c:217
 #, c-format
 msgid ""
 "Bucket Cache (size %d):\n"
@@ -380,60 +218,151 @@ msgstr ""
 "Säiliön välimuisti (koko %d):\n"
 "  Indeksi:  Osoite  Muuttunut  Tieto_tiiviste \n"
 
-#: src/gdbmtool.c:277
+#: src/testgdbm.c:225
 msgid "True"
 msgstr "Tosi"
 
-#: src/gdbmtool.c:277
+#: src/testgdbm.c:225
 msgid "False"
 msgstr "Epätosi"
 
-#: src/gdbmtool.c:282
+#: src/testgdbm.c:230
 #, c-format
 msgid "Bucket cache has not been initialized.\n"
 msgstr "Säiliövälimuistia ei ole alustettu.\n"
 
-#: src/gdbmtool.c:369
-msgid "nothing to close"
-msgstr "ei mitään suljettavaa"
+#: src/testgdbm.c:236
+#, c-format
+msgid "Usage: %s OPTIONS\n"
+msgstr "Käyttö: %s VALITSIMET\n"
 
-#: src/gdbmtool.c:380
+#: src/testgdbm.c:237
+#, fuzzy, c-format
+msgid "Test and modify a GDBM database.\n"
+msgstr "tutki ja/tai muokkaa GDBM-tietokantaa"
+
+#: src/testgdbm.c:239
+#, fuzzy, c-format
+msgid ""
+"OPTIONS are:\n"
+"\n"
+msgstr "VALITSIN"
+
+#: src/testgdbm.c:240
+#, c-format
+msgid "  -b SIZE            set block size\n"
+msgstr "  -b KOKO            aseta lohkokoko\n"
+
+#: src/testgdbm.c:241
+#, c-format
+msgid "  -c SIZE            set cache size\n"
+msgstr "  -c KOKO            aseta välimuistikoko\n"
+
+#: src/testgdbm.c:242
+#, c-format
+msgid "  -g FILE            operate on FILE instead of `junk.gdbm'\n"
+msgstr "  -g TIEDOSTO        toimi TIEDOSTOlla eikä ”junk.gdbm”\n"
+
+#: src/testgdbm.c:243
+#, c-format
+msgid "  -h                 print this help summary\n"
+msgstr "  -h                 tulosta tämä opasteyhteenveto\n"
+
+#: src/testgdbm.c:244
+#, fuzzy, c-format
+msgid "  -l                 disable file locking\n"
+msgstr "  -m                 ota pois käytöstä tiedoston mmap\n"
+
+#: src/testgdbm.c:245
+#, c-format
+msgid "  -m                 disable file mmap\n"
+msgstr "  -m                 ota pois käytöstä tiedoston mmap\n"
+
+#: src/testgdbm.c:246
+#, c-format
+msgid "  -n                 create database\n"
+msgstr "  -n                 luo tietokanta\n"
+
+#: src/testgdbm.c:247
+#, fuzzy, c-format
+msgid "  -r                 open database in read-only mode\n"
+msgstr "avaa tietokanta kirjoitussuojautussa tilassa"
+
+#: src/testgdbm.c:248
+#, fuzzy, c-format
+msgid "  -s                 synchronize to the disk after each write\n"
+msgstr "synkronoi levy jokaisen kirjoituksen jälkeen"
+
+#: src/testgdbm.c:249
+#, fuzzy, c-format
+msgid "  -v                 print program version\n"
+msgstr "  -h                 tulosta tämä opasteyhteenveto\n"
+
+#: src/testgdbm.c:251
+#, fuzzy, c-format
+msgid "Report bugs to <%s>.\n"
+msgstr ""
+"Ilmoita vioista (englanniksi) osoitteeseen %s.\n"
+"Ilmoita käännösvirheistä osoitteeseen translation-team-fi@lists.sourceforge."
+"net.\n"
+
+#: src/testgdbm.c:290
+#, fuzzy, c-format
+msgid "cannot open file `%s' for reading: %s"
+msgstr "tiedoston %s avaaminen lukemista varten epäonnistui: %s"
+
+#: src/testgdbm.c:301
+#, c-format
+msgid "%s:%d: line too long"
+msgstr "%s:%d: rivi on liian pitkä"
+
+#: src/testgdbm.c:309
+#, c-format
+msgid "%s:%d: malformed line"
+msgstr "%s:%d: vääränmuotoinen rivi"
+
+#: src/testgdbm.c:320
+#, c-format
+msgid "%d: item not inserted: %s"
+msgstr "%d: alkiota ei ole lisätty: %s"
+
+#: src/testgdbm.c:379
 #, c-format
 msgid "There is %d item in the database.\n"
 msgid_plural "There are %d items in the database.\n"
 msgstr[0] "Tietokannassa on %d alkio.\n"
 msgstr[1] "Tietokannassa on %d alkiota.\n"
 
-#: src/gdbmtool.c:394
+#: src/testgdbm.c:397
 #, c-format
 msgid "Can't delete: %s"
 msgstr "Poistaminen epäonnistui: %s"
 
-#: src/gdbmtool.c:410 src/gdbmtool.c:443 src/gdbmtool.c:473
+#: src/testgdbm.c:416 src/testgdbm.c:450 src/testgdbm.c:475
 #, c-format
 msgid "No such item found.\n"
 msgstr "Ei löytynyt sellaista alkiota.\n"
 
-#: src/gdbmtool.c:420
+#: src/testgdbm.c:431
 #, c-format
 msgid "Item not inserted.\n"
 msgstr "Alkiota ei lisätty.\n"
 
-#: src/gdbmtool.c:484
+#: src/testgdbm.c:487
 #, c-format
 msgid "Reorganization failed.\n"
 msgstr "Uudelleenjärjestely epäonnistui.\n"
 
-#: src/gdbmtool.c:486
+#: src/testgdbm.c:489
 #, c-format
 msgid "Reorganization succeeded.\n"
 msgstr "Uudelleenjärjestely onnistui.\n"
 
-#: src/gdbmtool.c:522
+#: src/testgdbm.c:521
 msgid "Current bucket"
 msgstr "Nykyinen säiliö"
 
-#: src/gdbmtool.c:523
+#: src/testgdbm.c:522
 #, c-format
 msgid ""
 "\n"
@@ -442,27 +371,27 @@ msgstr ""
 "\n"
 " nykyinen hakemistorivi = %d.\n"
 
-#: src/gdbmtool.c:525
+#: src/testgdbm.c:524
 #, c-format
 msgid " current bucket address  = %lu.\n"
 msgstr " nykyinen säiliöosoite  = %lu.\n"
 
-#: src/gdbmtool.c:536 src/gdbmtool.c:545
+#: src/testgdbm.c:535 src/testgdbm.c:544
 #, c-format
 msgid "not a number (stopped near %s)\n"
 msgstr "ei ole numero (pysähtyi kohteen %s lähellä)\n"
 
-#: src/gdbmtool.c:567
+#: src/testgdbm.c:563
 #, c-format
 msgid "Not a bucket.\n"
 msgstr "Ei ole säiliö.\n"
 
-#: src/gdbmtool.c:593
+#: src/testgdbm.c:588
 #, c-format
 msgid "Hash table directory.\n"
 msgstr "Tiivistetauluhakemisto.\n"
 
-#: src/gdbmtool.c:594
+#: src/testgdbm.c:589
 #, c-format
 msgid ""
 "  Size =  %d.  Bits = %d. \n"
@@ -471,7 +400,7 @@ msgstr ""
 "  Koko =  %d.  Bitit = %d. \n"
 "\n"
 
-#: src/gdbmtool.c:618
+#: src/testgdbm.c:608
 #, c-format
 msgid ""
 "\n"
@@ -482,510 +411,542 @@ msgstr ""
 "Tiedosto-otsake: \n"
 "\n"
 
-#: src/gdbmtool.c:619
+#: src/testgdbm.c:609
 #, c-format
 msgid "  table        = %lu\n"
 msgstr "  taulukko     = %lu\n"
 
-#: src/gdbmtool.c:621
+#: src/testgdbm.c:611
 #, c-format
 msgid "  table size   = %d\n"
 msgstr "  taulukkokoko = %d\n"
 
-#: src/gdbmtool.c:622
+#: src/testgdbm.c:612
 #, c-format
 msgid "  table bits   = %d\n"
 msgstr "  taulukkobitit= %d\n"
 
-#: src/gdbmtool.c:623
+#: src/testgdbm.c:613
 #, c-format
 msgid "  block size   = %d\n"
 msgstr "  lohkokoko    = %d\n"
 
-#: src/gdbmtool.c:624
+#: src/testgdbm.c:614
 #, c-format
 msgid "  bucket elems = %d\n"
 msgstr "  säiliöelementit = %d\n"
 
-#: src/gdbmtool.c:625
+#: src/testgdbm.c:615
 #, c-format
 msgid "  bucket size  = %d\n"
 msgstr "  säiliökoko  = %d\n"
 
-#: src/gdbmtool.c:626
+#: src/testgdbm.c:616
 #, c-format
 msgid "  header magic = %x\n"
 msgstr "  otsakkeen maaginen luku = %x\n"
 
-#: src/gdbmtool.c:627
+#: src/testgdbm.c:617
 #, c-format
 msgid "  next block   = %lu\n"
 msgstr "  seuraava lohko = %lu\n"
 
-#: src/gdbmtool.c:629
+#: src/testgdbm.c:619
 #, c-format
 msgid "  avail size   = %d\n"
 msgstr "  käytettävissä oleva koko = %d\n"
 
-#: src/gdbmtool.c:630
+#: src/testgdbm.c:620
 #, c-format
 msgid "  avail count  = %d\n"
 msgstr "  käytettävissä oleva lukumäärä  = %d\n"
 
-#: src/gdbmtool.c:631
+#: src/testgdbm.c:621
 #, c-format
 msgid "  avail nx blk = %lu\n"
 msgstr "  käytettävissä oleva seuraava lohko = %lu\n"
 
-#: src/gdbmtool.c:639
+#: src/testgdbm.c:633
 #, c-format
 msgid "hash value = %x. \n"
 msgstr "tiivistearvo = %x. \n"
 
-#: src/gdbmtool.c:692
-msgid "cannot fetch data; the key was:"
+#: src/testgdbm.c:689
+#, fuzzy, c-format
+msgid "cannot fetch data (key %.*s)"
 msgstr "tietojen noutaminen epäonnistui; avain oli:"
 
-#: src/gdbmtool.c:736 src/gdbmtool.c:767
+#: src/testgdbm.c:722
 #, c-format
-msgid "unrecognized argument: %s"
-msgstr "tunnistamaton argumentti: %s"
+msgid "gdbm_export failed, %s"
+msgstr "gdbm_export epäonnistui, %s"
 
-#: src/gdbmtool.c:744
+#: src/testgdbm.c:735
 #, c-format
-msgid "error dumping database: %s"
-msgstr "virhe vedostettaessa tietokantaa: %s"
+msgid "gdbm_import failed, %s"
+msgstr "gdbm_import epäonnistui, %s"
 
-#: src/gdbmtool.c:804
-#, c-format
-msgid "cannot load from %s: %s"
-msgstr "sivuttajan %s suorittaminen epäonnistui: %s"
+#: src/testgdbm.c:741
+msgid "yes"
+msgstr "kyllä"
 
-#: src/gdbmtool.c:820
+#: src/testgdbm.c:741
+msgid "no"
+msgstr "ei"
+
+#: src/testgdbm.c:749
 #, c-format
 msgid "Database file: %s\n"
 msgstr "Tietokantatiedosto: %s\n"
 
-#: src/gdbmtool.c:822
-msgid "No database name"
-msgstr "Ei tietokantanimeä"
+#: src/testgdbm.c:750 src/testgdbm.c:760
+#, c-format
+msgid "Zero terminated keys: %s\n"
+msgstr "Nollapäätteiset avaimet: %s\n"
 
-#: src/gdbmtool.c:824
-msgid "Database is open"
-msgstr "Tietokanta on avattu"
+#: src/testgdbm.c:751
+#, fuzzy, c-format
+msgid "Zero terminated data: %s\n"
+msgstr "Nollapäätteiset avaimet: %s\n"
 
-#: src/gdbmtool.c:826
-msgid "Database is not open"
-msgstr "Tietokantaa ei ole avattu"
-
-#: src/gdbmtool.c:868
+#: src/testgdbm.c:792
 msgid "count (number of entries)"
 msgstr "lukumäärä (alkioiden lukumäärä)"
 
-#: src/gdbmtool.c:871 src/gdbmtool.c:881 src/gdbmtool.c:899 src/gdbmtool.c:928
-msgid "KEY"
-msgstr "AVAIN"
+#: src/testgdbm.c:795 src/testgdbm.c:801 src/testgdbm.c:813 src/testgdbm.c:845
+msgid "key"
+msgstr "avain"
 
-#: src/gdbmtool.c:871
-msgid "delete a record"
-msgstr "poista tietue"
+#: src/testgdbm.c:795
+msgid "delete"
+msgstr "poista"
 
-#: src/gdbmtool.c:874 src/gdbmtool.c:884 src/gdbmtool.c:1079
-msgid "FILE"
-msgstr "TIEDOSTO"
+#: src/testgdbm.c:798 src/testgdbm.c:804 src/testgdbm.c:819
+msgid "file"
+msgstr "tiedosto"
 
-#: src/gdbmtool.c:878
+#: src/testgdbm.c:798
 msgid "export"
 msgstr "vie"
 
-#: src/gdbmtool.c:881
-msgid "fetch record"
-msgstr "nouda tietue"
+#: src/testgdbm.c:801
+msgid "fetch"
+msgstr "nouda"
 
-#: src/gdbmtool.c:888
+#: src/testgdbm.c:804
 msgid "import"
 msgstr "tuo"
 
-#: src/gdbmtool.c:891
+#: src/testgdbm.c:807
 msgid "list"
 msgstr "luettelo"
 
-#: src/gdbmtool.c:894
-msgid "[KEY]"
-msgstr "[AVAIN]"
+#: src/testgdbm.c:810
+msgid "[key]"
+msgstr "[avain]"
 
-#: src/gdbmtool.c:896
+#: src/testgdbm.c:810
 msgid "nextkey"
 msgstr "seuraava-avain"
 
-#: src/gdbmtool.c:900
-msgid "DATA"
-msgstr "TIEDOT"
+#: src/testgdbm.c:813
+msgid "data"
+msgstr "tiedot"
 
-#: src/gdbmtool.c:902
+#: src/testgdbm.c:813
 msgid "store"
 msgstr "tallenna"
 
-#: src/gdbmtool.c:905
+#: src/testgdbm.c:816
 msgid "firstkey"
 msgstr "ensimmäinen-avain"
 
-#: src/gdbmtool.c:908
+#: src/testgdbm.c:820
+msgid "read entries from file and store"
+msgstr "lue rivejä tiedostosta ja tallenna"
+
+#: src/testgdbm.c:823
 msgid "reorganize"
 msgstr "järjestä uudelleen"
 
-#: src/gdbmtool.c:911
+#: src/testgdbm.c:826
+msgid "toggle key nul-termination"
+msgstr "vaihda päälle ja pois päältä nul-pääte"
+
+#: src/testgdbm.c:829
 msgid "print avail list"
 msgstr "tulosta käytettävissä oleva luettelo"
 
-#: src/gdbmtool.c:914
-msgid "NUMBER"
-msgstr "NUMERO"
+#: src/testgdbm.c:832
+msgid "bucket-number"
+msgstr "säiliönumero"
 
-#: src/gdbmtool.c:915
+#: src/testgdbm.c:832
 msgid "print a bucket"
 msgstr "tulosta säiliö"
 
-#: src/gdbmtool.c:919
+#: src/testgdbm.c:836
 msgid "print current bucket"
 msgstr "tulosta nykyinen säiliö"
 
-#: src/gdbmtool.c:922
+#: src/testgdbm.c:839
 msgid "print hash directory"
 msgstr "tulosta tiivistehakemisto"
 
-#: src/gdbmtool.c:925
-msgid "print database file header"
+#: src/testgdbm.c:842
+#, fuzzy
+msgid "print file header"
 msgstr "tulosta tietokantatiedosto-otsake"
 
-#: src/gdbmtool.c:929
+#: src/testgdbm.c:845
 msgid "hash value of key"
 msgstr "avaimen tiivistearvo"
 
-#: src/gdbmtool.c:932
+#: src/testgdbm.c:848
 msgid "print the bucket cache"
 msgstr "tulosta säiliövälimuisti"
 
-#: src/gdbmtool.c:935
+#: src/testgdbm.c:851
 msgid "print current program status"
 msgstr "tulosta nykyinen ohjelman tila"
 
-#: src/gdbmtool.c:938
+#: src/testgdbm.c:854
 msgid "print version of gdbm"
 msgstr "tulosta gdbm-versio"
 
-#: src/gdbmtool.c:941
+#: src/testgdbm.c:857
+msgid "toggle data nul-termination"
+msgstr "vaihtele päälle ja pois tietojen nul-päätettä"
+
+#: src/testgdbm.c:860
 msgid "print this help list"
 msgstr "tulosta tämä opasteluettelo"
 
-#: src/gdbmtool.c:944
+#: src/testgdbm.c:863
 msgid "quit the program"
 msgstr "poistu ohjelmasta"
 
-#: src/gdbmtool.c:947
-msgid "set or list variables"
-msgstr "aseta tai luettele muuttujat"
-
-#: src/gdbmtool.c:950
-msgid "unset variables"
-msgstr "nolla muuttujat"
-
-#: src/gdbmtool.c:955
-msgid "define datum structure"
-msgstr "määritä päivämäärärakenne"
-
-#: src/gdbmtool.c:959
-msgid "source command script"
-msgstr "lähdekomentoskripti"
-
-#: src/gdbmtool.c:962
-msgid "close the database"
-msgstr "sulje tietokanta"
-
-#: src/gdbmtool.c:966
-msgid "open new database"
-msgstr "avaa uusi tietokanta"
-
-#: src/gdbmtool.c:1064
-msgid "Invalid command. Try ? for help."
-msgstr "Virheellinen komento. Opastusta ?-komennolla."
-
-#: src/gdbmtool.c:1065
-msgid "Unknown command"
-msgstr "Tuntematon komento"
-
-#: src/gdbmtool.c:1073
-msgid "examine and/or modify a GDBM database"
-msgstr "tutki ja/tai muokkaa GDBM-tietokantaa"
-
-#: src/gdbmtool.c:1074
-msgid "DBFILE"
-msgstr "DBFILE"
-
-#: src/gdbmtool.c:1077 src/gdbmtool.c:1078
-msgid "SIZE"
-msgstr "KOKO"
-
-#: src/gdbmtool.c:1077
-msgid "set block size"
-msgstr "aseta lohkokoko"
-
-#: src/gdbmtool.c:1078
-msgid "set cache size"
-msgstr "aseta välimuistikoko"
-
-#: src/gdbmtool.c:1079
-msgid "read commands from FILE"
-msgstr "lue komennot TIEDOSTOsta"
-
-#: src/gdbmtool.c:1081
-msgid "disable file locking"
-msgstr "ota pois käytöstä tiedostojen lukitus"
-
-#: src/gdbmtool.c:1082
-msgid "do not use mmap"
-msgstr "älä käytä mmap-komentoa"
-
-#: src/gdbmtool.c:1083
-msgid "create database"
-msgstr "luo tietokanta"
-
-#: src/gdbmtool.c:1084
-msgid "do not read .gdbmtoolrc file"
-msgstr "älä lue .gdbmtoolrc-tiedostoa"
-
-#: src/gdbmtool.c:1085
-msgid "open database in read-only mode"
-msgstr "avaa tietokanta kirjoitussuojautussa tilassa"
-
-#: src/gdbmtool.c:1086
-msgid "synchronize to disk after each write"
-msgstr "synkronoi levy jokaisen kirjoituksen jälkeen"
-
-#: src/gdbmtool.c:1087
-msgid "don't print initial banner"
-msgstr "älä tulosta alkubanneria"
-
-#: src/gdbmtool.c:1327
+#: src/testgdbm.c:1063
 #, c-format
-msgid "cannot coerce %s to %s"
-msgstr "arvon %s pakottaminen arvoksi %s epäonnistui"
+msgid "-s is incompatible with -r"
+msgstr "-s on yhteensopimaton valitsimen -r kanssa"
 
-#: src/gdbmtool.c:1374
+#: src/testgdbm.c:1070
 #, c-format
-msgid "%s: not enough arguments"
-msgstr "%s: argumentteja ei ole kylliksi"
+msgid "-r is incompatible with -n"
+msgstr "-r on yhteensopimaton valitsimen -n kanssa"
 
-#: src/gdbmtool.c:1381
-msgid "unexpected eof"
-msgstr "odottamaton tiedoston loppumerkki"
-
-#: src/gdbmtool.c:1404
+#: src/testgdbm.c:1077
 #, c-format
-msgid "%s: too many arguments"
-msgstr "%s: liian monta argumenttia"
+msgid "-n is incompatible with -r"
+msgstr "-n on yhteensopimaton valitsimen -r kanssa"
 
-#: src/gdbmtool.c:1431
-#, c-format
-msgid "cannot run pager `%s': %s"
-msgstr "sivuttajan ”%s” suorittaminen epäonnistui: %s"
-
-#: src/gdbmtool.c:1472
-msgid "cannot find home directory"
-msgstr "kotihakemiston haku epäonnistui"
-
-#: src/gdbmtool.c:1569
-#, c-format
-msgid "unknown option; try `%s -h' for more info"
+#: src/testgdbm.c:1099
+#, fuzzy, c-format
+msgid "unknown option; try `%s -h' for more info\n"
 msgstr "tuntematon valitsin; lisätietoja komennolla ”%s -h”"
 
-#: src/gdbmtool.c:1579
-msgid "too many arguments"
-msgstr "liian monta argumenttia"
+#: src/testgdbm.c:1123
+#, fuzzy, c-format
+msgid "gdbm_open failed: %s"
+msgstr "gdbm_open epäonnistui"
 
-#: src/gdbmtool.c:1596
+#: src/testgdbm.c:1127
 #, c-format
+msgid "gdbm_setopt failed: %s"
+msgstr "gdbm_setopt epäonnistui: %s"
+
+#: src/testgdbm.c:1133
+#, fuzzy, c-format
 msgid ""
 "\n"
-"Welcome to the gdbm tool.  Type ? for help.\n"
+"Welcome to the gdbm test program.  Type ? for help.\n"
 "\n"
 msgstr ""
 "\n"
 "Tervetuloa gdbm-työkaluun.  Opastusta komennolla ?.\n"
 "\n"
 
+#: src/testgdbm.c:1166
+#, c-format
+msgid "Invalid command. Try ? for help."
+msgstr "Virheellinen komento. Opastusta ?-komennolla."
+
+#: src/testgdbm.c:1167
+#, c-format
+msgid "Unknown command"
+msgstr "Tuntematon komento"
+
+#: src/testgdbm.c:1182
+#, c-format
+msgid "%s: not enough arguments"
+msgstr "%s: argumentteja ei ole kylliksi"
+
+#: src/testgdbm.c:1187
+#, c-format
+msgid "unexpected eof"
+msgstr "odottamaton tiedoston loppumerkki"
+
+#: src/testgdbm.c:1208
+#, c-format
+msgid "cannot run pager `%s': %s"
+msgstr "sivuttajan ”%s” suorittaminen epäonnistui: %s"
+
 #: src/update.c:110
 #, c-format
 msgid "gdbm fatal: %s\n"
 msgstr "kohtalokas gdbm-virhe: %s\n"
 
-#: src/gram.y:216
-#, c-format
-msgid "expected \"key\" or \"content\", but found \"%s\""
-msgstr "odotettiin argumenttia ”key” tai ”content”, mutta löydettiin ”%s”"
+#~ msgid "select dump format"
+#~ msgstr "valitse vedosmuoto"
 
-#: src/gram.y:287 src/gram.y:308 src/gram.y:340
-#, c-format
-msgid "no such variable: %s"
-msgstr "tuntematon muuttuja: %s"
+#~ msgid "unknown dump format"
+#~ msgstr "tuntematon vedosmuoto"
 
-#: src/gram.y:291
-#, c-format
-msgid "%s is not a boolean variable"
-msgstr "%s ei ole boolean-muuttuja"
+#~ msgid "unknown option"
+#~ msgstr "tuntematon valitsin"
 
-#: src/gram.y:295 src/gram.y:320
-#, c-format
-msgid "unexpected error setting %s: %d"
-msgstr "odottamaton virheasetus %s: %d"
+#~ msgid "too many arguments; try `%s -h' for more info"
+#~ msgstr "liian monta argumenttia; lisätietoja komennolla ”%s -h”"
 
-#: src/gram.y:312
-#, c-format
-msgid "%s: bad variable type"
-msgstr "%s: väärä muuttujatyyppi"
+#~ msgid "cannot open %s"
+#~ msgstr "sivuttajan %s suorittaminen epäonnistui"
 
-#: src/gram.y:316
-#, c-format
-msgid "%s: value %s is not allowed"
-msgstr "%s: arvo %s ei ole sallittu"
+#~ msgid "dump error"
+#~ msgstr "vedosvirhe"
 
-#: src/gram.y:344
-#, c-format
-msgid "%s: variable cannot be unset"
-msgstr "%s: muuttujan nollaus epäonnistui"
+#~ msgid "replace records in the existing database"
+#~ msgstr "korvaa tietueet olemassaolevassa tietokannassa"
 
-#: src/lex.l:150
-#, c-format
-msgid "cannot open `%s': %s"
-msgstr "kohteen ”%s” avaus epäonnistui: %s"
+#~ msgid "MODE"
+#~ msgstr "TILA"
 
-#: src/lex.l:155
-#, c-format
-msgid "%s is not a regular file"
-msgstr "%s ei ole tavallinen tiedosto"
+#~ msgid "set file mode"
+#~ msgstr "aseta tiedostotila"
 
-#: src/lex.l:162
-msgid "recursive sourcing"
-msgstr "rekursiivinen lähdekoodi"
+#~ msgid "NAME|UID[:NAME|GID]"
+#~ msgstr "NIMI|UID[:NIMI|GID]"
 
-#: src/lex.l:164
-#, c-format
-msgid "%s already sourced here"
-msgstr "%s on jo täällä lähdekoodina"
+#~ msgid "set file owner"
+#~ msgstr "aseta tiedoston omistaja"
 
-#: src/lex.l:171
-#, c-format
-msgid "cannot open %s for reading: %s"
-msgstr "tiedoston %s avaaminen lukemista varten epäonnistui: %s"
+#~ msgid "do not attempt to set file meta-data"
+#~ msgstr "älä yritä asettaa tiedoston metatietoja"
 
-#: src/lex.l:227 src/lex.l:237
-msgid "invalid #line statement"
-msgstr "virheellinen #line-lause"
+#~ msgid "invalid octal number"
+#~ msgstr "virheellinen oktaalinumero"
 
-#: src/datconv.c:254
-#, c-format
-msgid "(not enough data)"
-msgstr "(dataa ei ole kylliksi)"
+#~ msgid "invalid user name: %s"
+#~ msgstr "virheellinen käyttäjätunnus: %s"
 
-#: src/datconv.c:329
-msgid "mixing tagged and untagged values is not allowed"
-msgstr "merkittyjen ja merkitsemättömien arvojen sekoittamien ei ole sallittua"
+#~ msgid "invalid group name: %s"
+#~ msgstr "virheellinen ryhmänimi: %s"
 
-#: src/datconv.c:345
-msgid "cannot convert"
-msgstr "muunnos epäonnistui"
+#~ msgid "no such UID: %lu"
+#~ msgstr "tuntematon UID: %lu"
 
-#: src/datconv.c:356
-#, c-format
-msgid "cannot convert value #%d: %s"
-msgstr "arvon #%d muuntaminen epäonnistui: %s"
+#~ msgid "error restoring metadata: %s (%s)"
+#~ msgstr "virhe palautettaessa metatietoja: %s (%s)"
 
-#~ msgid "Out of memory"
-#~ msgstr "Muisti loppui"
+#~ msgid "cannot load from %s"
+#~ msgstr "kohteesta %s lataaminen epäonnistui"
 
-#~ msgid "Usage: %s OPTIONS\n"
-#~ msgstr "Käyttö: %s VALITSIMET\n"
+#~ msgid "gdbm_setopt failed"
+#~ msgstr "gdbm_setopt epäonnistui"
 
-#~ msgid "  -b SIZE            set block size\n"
-#~ msgstr "  -b KOKO            aseta lohkokoko\n"
+#~ msgid "Database name not given"
+#~ msgstr "Tietokantanimeä ei ole annettu"
 
-#~ msgid "  -c SIZE            set cache size\n"
-#~ msgstr "  -c KOKO            aseta välimuistikoko\n"
+#~ msgid "Failed to restore file owner"
+#~ msgstr "Tiedoston omistajan palauttaminen epäonnistui"
 
-#~ msgid "  -g FILE            operate on FILE instead of `junk.gdbm'\n"
-#~ msgstr "  -g TIEDOSTO        toimi TIEDOSTOlla eikä ”junk.gdbm”\n"
+#~ msgid "Failed to restore file mode"
+#~ msgstr "Tiedostotilan palauttaminen epäonnistui"
 
-#~ msgid "  -h                 print this help summary\n"
-#~ msgstr "  -h                 tulosta tämä opasteyhteenveto\n"
+#~ msgid "give this help list"
+#~ msgstr "anna tämä opasteluettelo"
 
-#~ msgid "  -m                 disable file mmap\n"
-#~ msgstr "  -m                 ota pois käytöstä tiedoston mmap\n"
+#~ msgid "print program version"
+#~ msgstr "tulosta ohjelmaversio"
 
-#~ msgid "  -n                 create database\n"
-#~ msgstr "  -n                 luo tietokanta\n"
+#~ msgid "give a short usage message"
+#~ msgstr "anna lyhyt käyttöviesti"
 
-#~ msgid "%s:%d: line too long"
-#~ msgstr "%s:%d: rivi on liian pitkä"
+#~ msgid "Usage:"
+#~ msgstr "Käyttö:"
 
-#~ msgid "%s:%d: malformed line"
-#~ msgstr "%s:%d: vääränmuotoinen rivi"
+#~ msgid ""
+#~ "Mandatory or optional arguments to long options are also mandatory or "
+#~ "optional for any corresponding short options."
+#~ msgstr ""
+#~ "Pakolliset tai valinnaiset argumentit pitkille valitsimille ovat "
+#~ "pakollisia tai valinnaisia myös vastaaville lyhyille valitsimille."
 
-#~ msgid "%d: item not inserted: %s"
-#~ msgstr "%d: alkiota ei ole lisätty: %s"
+#~ msgid "%s home page: <%s>\n"
+#~ msgstr "%s-kotisivu: <%s>\n"
 
-#~ msgid "gdbm_export failed, %s"
-#~ msgstr "gdbm_export epäonnistui, %s"
+#~ msgid "(C)"
+#~ msgstr "©"
 
-#~ msgid "gdbm_import failed, %s"
-#~ msgstr "gdbm_import epäonnistui, %s"
+#~ msgid "database %s already exists; overwrite"
+#~ msgstr "tietokanta %s on jo olemasa; korvaa"
 
-#~ msgid "yes"
-#~ msgstr "kyllä"
+#~ msgid "cannot open database %s: %s"
+#~ msgstr "sivuttajan %s suorittaminen epäonnistui: %s"
 
-#~ msgid "no"
-#~ msgstr "ei"
+#~ msgid "warning: using default database file %s"
+#~ msgstr "varoitus: käytetään oletustietokantatiedostoa %s"
 
-#~ msgid "Zero terminated keys: %s\n"
-#~ msgstr "Nollapäätteiset avaimet: %s\n"
+#~ msgid "nothing to close"
+#~ msgstr "ei mitään suljettavaa"
 
-#~ msgid "key"
-#~ msgstr "avain"
+#~ msgid "unrecognized argument: %s"
+#~ msgstr "tunnistamaton argumentti: %s"
 
-#~ msgid "delete"
-#~ msgstr "poista"
+#~ msgid "error dumping database: %s"
+#~ msgstr "virhe vedostettaessa tietokantaa: %s"
 
-#~ msgid "file"
-#~ msgstr "tiedosto"
+#~ msgid "cannot load from %s: %s"
+#~ msgstr "sivuttajan %s suorittaminen epäonnistui: %s"
 
-#~ msgid "fetch"
-#~ msgstr "nouda"
+#~ msgid "No database name"
+#~ msgstr "Ei tietokantanimeä"
 
-#~ msgid "[key]"
-#~ msgstr "[avain]"
+#~ msgid "Database is open"
+#~ msgstr "Tietokanta on avattu"
 
-#~ msgid "data"
-#~ msgstr "tiedot"
+#~ msgid "Database is not open"
+#~ msgstr "Tietokantaa ei ole avattu"
 
-#~ msgid "read entries from file and store"
-#~ msgstr "lue rivejä tiedostosta ja tallenna"
+#~ msgid "KEY"
+#~ msgstr "AVAIN"
 
-#~ msgid "toggle key nul-termination"
-#~ msgstr "vaihda päälle ja pois päältä nul-pääte"
+#~ msgid "delete a record"
+#~ msgstr "poista tietue"
 
-#~ msgid "bucket-number"
-#~ msgstr "säiliönumero"
+#~ msgid "FILE"
+#~ msgstr "TIEDOSTO"
 
-#~ msgid "toggle data nul-termination"
-#~ msgstr "vaihtele päälle ja pois tietojen nul-päätettä"
+#~ msgid "fetch record"
+#~ msgstr "nouda tietue"
 
-#~ msgid "-s is incompatible with -r"
-#~ msgstr "-s on yhteensopimaton valitsimen -r kanssa"
+#~ msgid "[KEY]"
+#~ msgstr "[AVAIN]"
 
-#~ msgid "-r is incompatible with -n"
-#~ msgstr "-r on yhteensopimaton valitsimen -n kanssa"
+#~ msgid "DATA"
+#~ msgstr "TIEDOT"
 
-#~ msgid "-n is incompatible with -r"
-#~ msgstr "-n on yhteensopimaton valitsimen -r kanssa"
+#~ msgid "NUMBER"
+#~ msgstr "NUMERO"
+
+#~ msgid "set or list variables"
+#~ msgstr "aseta tai luettele muuttujat"
+
+#~ msgid "unset variables"
+#~ msgstr "nolla muuttujat"
+
+#~ msgid "define datum structure"
+#~ msgstr "määritä päivämäärärakenne"
+
+#~ msgid "source command script"
+#~ msgstr "lähdekomentoskripti"
+
+#~ msgid "close the database"
+#~ msgstr "sulje tietokanta"
+
+#~ msgid "open new database"
+#~ msgstr "avaa uusi tietokanta"
+
+#~ msgid "DBFILE"
+#~ msgstr "DBFILE"
+
+#~ msgid "SIZE"
+#~ msgstr "KOKO"
+
+#~ msgid "set block size"
+#~ msgstr "aseta lohkokoko"
+
+#~ msgid "set cache size"
+#~ msgstr "aseta välimuistikoko"
+
+#~ msgid "read commands from FILE"
+#~ msgstr "lue komennot TIEDOSTOsta"
+
+#~ msgid "disable file locking"
+#~ msgstr "ota pois käytöstä tiedostojen lukitus"
+
+#~ msgid "do not use mmap"
+#~ msgstr "älä käytä mmap-komentoa"
+
+#~ msgid "create database"
+#~ msgstr "luo tietokanta"
+
+#~ msgid "do not read .gdbmtoolrc file"
+#~ msgstr "älä lue .gdbmtoolrc-tiedostoa"
+
+#~ msgid "don't print initial banner"
+#~ msgstr "älä tulosta alkubanneria"
+
+#~ msgid "cannot coerce %s to %s"
+#~ msgstr "arvon %s pakottaminen arvoksi %s epäonnistui"
+
+#~ msgid "%s: too many arguments"
+#~ msgstr "%s: liian monta argumenttia"
+
+#~ msgid "cannot find home directory"
+#~ msgstr "kotihakemiston haku epäonnistui"
+
+#~ msgid "too many arguments"
+#~ msgstr "liian monta argumenttia"
+
+#~ msgid "expected \"key\" or \"content\", but found \"%s\""
+#~ msgstr "odotettiin argumenttia ”key” tai ”content”, mutta löydettiin ”%s”"
+
+#~ msgid "no such variable: %s"
+#~ msgstr "tuntematon muuttuja: %s"
+
+#~ msgid "%s is not a boolean variable"
+#~ msgstr "%s ei ole boolean-muuttuja"
+
+#~ msgid "unexpected error setting %s: %d"
+#~ msgstr "odottamaton virheasetus %s: %d"
+
+#~ msgid "%s: bad variable type"
+#~ msgstr "%s: väärä muuttujatyyppi"
+
+#~ msgid "%s: value %s is not allowed"
+#~ msgstr "%s: arvo %s ei ole sallittu"
+
+#~ msgid "%s: variable cannot be unset"
+#~ msgstr "%s: muuttujan nollaus epäonnistui"
+
+#~ msgid "cannot open `%s': %s"
+#~ msgstr "kohteen ”%s” avaus epäonnistui: %s"
+
+#~ msgid "%s is not a regular file"
+#~ msgstr "%s ei ole tavallinen tiedosto"
+
+#~ msgid "recursive sourcing"
+#~ msgstr "rekursiivinen lähdekoodi"
+
+#~ msgid "%s already sourced here"
+#~ msgstr "%s on jo täällä lähdekoodina"
+
+#~ msgid "invalid #line statement"
+#~ msgstr "virheellinen #line-lause"
+
+#~ msgid "(not enough data)"
+#~ msgstr "(dataa ei ole kylliksi)"
+
+#~ msgid "mixing tagged and untagged values is not allowed"
+#~ msgstr ""
+#~ "merkittyjen ja merkitsemättömien arvojen sekoittamien ei ole sallittua"
+
+#~ msgid "cannot convert"
+#~ msgstr "muunnos epäonnistui"
+
+#~ msgid "cannot convert value #%d: %s"
+#~ msgstr "arvon #%d muuntaminen epäonnistui: %s"
 
 #~ msgid "write error"
 #~ msgstr "kirjoitusvirhe"
