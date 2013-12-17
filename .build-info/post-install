@@ -2,3 +2,8 @@
 
 ln -s libgdbm_compat.so ${3}/usr/${C_LIBDIRS}/libdbm.so
 ln -s libgdbm_compat.so ${3}/usr/${C_LIBDIRS}/libndbm.so
+
+if [ "${MLIBDIR}" ];then
+  ln -s ${MLIBDIR}/libdbm.so ${3}/usr/${B_LIBDIRS}/
+  ln -s ${MLIBDIR}/libndbm.so ${3}/usr/${B_LIBDIRS}/
+fi;
