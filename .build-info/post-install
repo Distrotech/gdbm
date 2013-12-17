@@ -1,5 +1,4 @@
 #!/bin/bash
 
-ln -s libgdbm_compat.so ${3}/usr/${B_LIBDIRS}/libdbm.so
-ln -s libgdbm_compat.so ${3}/usr/${B_LIBDIRS}/libndbm.so
-
+ln -s libgdbm_compat.so ${3}/usr/${C_LIBDIRS}/libdbm.so
+ln -s libgdbm_compat.so ${3}/usr/${C_LIBDIRS}/libndbm.so
